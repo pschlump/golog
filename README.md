@@ -1,5 +1,12 @@
+golog
+--
+
+Forked from original because the color library it used no longer exists.
+
+
 Basic logging with batteries
 ----------------------------
+
 
 [![IRC #go-nuts](https://www.irccloud.com/invite-svg?channel=%23go-nuts&amp;hostname=chat.freenode.net&amp;port=6697&amp;ssl=1)](https://www.irccloud.com/invite?channel=%23go-nuts&amp;hostname=chat.freenode.net&amp;port=6697&amp;ssl=1)
 [![Build Status](https://travis-ci.org/bnclabs/golog.png)](https://travis-ci.org/bnclabs/golog)

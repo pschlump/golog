@@ -1,13 +1,15 @@
 package log
 
-import "testing"
-import "fmt"
-import "os"
-import "strings"
-import "io/ioutil"
-import stdlog "log"
+import (
+	"fmt"
+	"io/ioutil"
+	stdlog "log"
+	"os"
+	"strings"
+	"testing"
 
-import "github.com/prataprc/color"
+	"github.com/pschlump/color"
+)
 
 func TestSetLogger(t *testing.T) {
 	logfile := "setlogger_test.log.file"

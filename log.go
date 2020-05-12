@@ -1,12 +1,16 @@
 package log
 
-import "os"
-import "fmt"
-import "time"
-import "strings"
-import stdlog "log"
+import (
+	"fmt"
+	stdlog "log"
+	"os"
+	"strings"
+	"time"
 
-import "github.com/prataprc/color"
+	"github.com/pschlump/color"
+)
+
+// import "github.com/prataprc/color"
 
 var timeformat, prefix = "2006-01-02T15:04:05.999Z-07:00", "[%v]"
 
