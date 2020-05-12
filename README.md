@@ -9,10 +9,10 @@ Basic logging with batteries
 
 
 [![IRC #go-nuts](https://www.irccloud.com/invite-svg?channel=%23go-nuts&amp;hostname=chat.freenode.net&amp;port=6697&amp;ssl=1)](https://www.irccloud.com/invite?channel=%23go-nuts&amp;hostname=chat.freenode.net&amp;port=6697&amp;ssl=1)
-[![Build Status](https://travis-ci.org/bnclabs/golog.png)](https://travis-ci.org/bnclabs/golog)
-[![Coverage Status](https://coveralls.io/repos/github/bnclabs/golog/badge.svg?branch=master)](https://coveralls.io/github/bnclabs/golog?branch=master)
-[![GoDoc](https://godoc.org/github.com/bnclabs/golog?status.png)](https://godoc.org/github.com/bnclabs/golog)
-[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/bnclabs/golog/master?grs=github&t=white)
+[![Build Status](https://travis-ci.org/pschlump/golog.png)](https://travis-ci.org/pschlump/golog)
+[![Coverage Status](https://coveralls.io/repos/github/pschlump/golog/badge.svg?branch=master)](https://coveralls.io/github/pschlump/golog?branch=master)
+[![GoDoc](https://godoc.org/github.com/pschlump/golog?status.png)](https://godoc.org/github.com/pschlump/golog)
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/pschlump/golog/master?grs=github&t=white)
 
 * APIs to prefix log-level in log messages.
 * Global option to redirect logs to a file.
@@ -27,7 +27,7 @@ How to use golog
 Packages can import golog and use its methods
 
 ```go
-import github.com/bnclabs/golog
+import github.com/pschlump/golog
 func myfunc() {
     ..
     log.Fatalf(...)
@@ -47,7 +47,7 @@ default-logger that shall log to standard output. To use custom logger
 use the following initializer function in your package or application:
 
 ```go
-import github.com/bnclabs/golog
+import github.com/pschlump/golog
 
 var mylogger = newmylogger()
 func init() {

@@ -7,7 +7,7 @@
 
 @snap[south-east author-box]
 @fa[envelope](prataprc@gmail.com - R Pratap Chakravarthy) <br/>
-@fa[github](https://github.com/bnclabs/golog) <br/>
+@fa[github](https://github.com/pschlump/golog) <br/>
 @snapend
 
 ---
@@ -63,7 +63,7 @@ And more than once I needed the following:
 @ulend
 
 @ul[para]
-- These facilities are supported on top of what the log pkg already provides. I find them sufficient for my case, but if your situation demands additional feature raise an [issue](http://github.com/bnclabs/golog/issues)
+- These facilities are supported on top of what the log pkg already provides. I find them sufficient for my case, but if your situation demands additional feature raise an [issue](http://github.com/pschlump/golog/issues)
 @ulend
 
 ---
@@ -198,6 +198,6 @@ If golog sounds useful please check out the following links.
 
 <br/>
 
-@fa[book] [Project README](https://github.com/bnclabs/golog). <br/>
-@fa[code] [API doc](https://godoc.org/github.com/bnclabs/golog). <br/>
-@fa[github] [Please contribute](https://github.com/bnclabs/golog/issues). <br/>
+@fa[book] [Project README](https://github.com/pschlump/golog). <br/>
+@fa[code] [API doc](https://godoc.org/github.com/pschlump/golog). <br/>
+@fa[github] [Please contribute](https://github.com/pschlump/golog/issues). <br/>
